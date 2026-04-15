@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@theme {
+  /* Terracotta & Crème — Oriental Marocain */
+  --color-primary: #C4724B;
+  --color-primary-light: #D4896A;
+  --color-primary-dark: #A85D3A;
+  --color-secondary: #2C1810;
+  --color-secondary-light: #4A2E22;
+  --color-accent: #F5E1D0;
+  --color-accent-light: #FFF3EA;
+  --color-accent-dark: #E8CDB8;
+
+  /* Backgrounds */
+  --color-bg: #FFF9F5;
+  --color-bg-alt: #FEF5EE;
+  --color-bg-dark: #1A0E08;
+  --color-bg-dark-card: #231510;
+
+  /* Text */
+  --color-text: #2C1810;
+  --color-text-body: #4A3228;
+  --color-text-muted: #8B7068;
+  --color-text-light: #FFF9F5;
+
+  /* Semantic */
+  --color-success: #6B8F5E;
+  --color-warning: #D4A843;
+  --color-error: #C45B4B;
+  --color-info: #5B8FC4;
+
+  /* Gold accents — signature orientale */
+  --color-gold: #C8963E;
+  --color-gold-light: #E8C87A;
+  --color-gold-dark: #A67A2E;
+}
+
+/* === PREMIUM ORIENTAL UTILITIES === */
+
+/* Gradient text doré */
+.text-gradient-gold {
+  background: linear-gradient(135deg, #C8963E 0%, #E8C87A 40%, #C8963E 70%, #E8C87A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Shimmer animation for gold elements */
+@keyframes shimmer-gold {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.shimmer-gold {
+  background: linear-gradient(
+    90deg,
+    #C8963E 0%,
+    #E8C87A 25%,
+    #C8963E 50%,
+    #E8C87A 75%,
+    #C8963E 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer-gold 3s linear infinite;
+}
+
+/* Gold glow shadow */
+.shadow-gold-glow {
+  box-shadow: 0 4px 20px rgba(200, 150, 62, 0.15), 0 0 40px rgba(200, 150, 62, 0.05);
+}
+
+.shadow-gold-glow-lg {
+  box-shadow: 0 8px 40px rgba(200, 150, 62, 0.2), 0 0 60px rgba(200, 150, 62, 0.08);
+}
+
+/* Gold border glow on hover */
+.border-gold-glow {
+  border-color: rgba(200, 150, 62, 0.2);
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.border-gold-glow:hover {
+  border-color: rgba(200, 150, 62, 0.4);
+  box-shadow: 0 0 20px rgba(200, 150, 62, 0.1);
+}
+
+/* Decorative gold line */
+.gold-line {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #C8963E, transparent);
+}
+
+.gold-line-thick {
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #C8963E, #E8C87A, #C8963E, transparent);
+}
+
+/* Scrollbar hide utility */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

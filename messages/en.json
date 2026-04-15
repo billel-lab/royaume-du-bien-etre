@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "title": "Royaume du Bien-Être — Natural Moroccan Cosmetics",
+    "description": "Discover our artisanal natural skincare from Morocco. Oils, creams, gift sets and hair care, 100% natural. Fast delivery to Belgium and France."
+  },
+  "nav": {
+    "home": "Home",
+    "shop": "Shop",
+    "about": "About Us",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "cart": "Cart",
+    "account": "My Account"
+  },
+  "hero": {
+    "badge": "100% Natural Cosmetics from Morocco",
+    "title": "Reveal Your Natural Glow",
+    "subtitle": "Skincare inspired by Moroccan beauty rituals. Ancestral treasures, handcrafted with pure and natural ingredients.",
+    "cta_primary": "Discover the Shop",
+    "cta_secondary": "Our Gift Sets"
+  },
+  "categories": {
+    "title": "Our Skincare Worlds",
+    "subtitle": "Beauty rituals for every need"
+  },
+  "featured": {
+    "title": "Our Must-Haves",
+    "subtitle": "Discover the essence of our expertise through our iconic products",
+    "add_to_cart": "Add to cart",
+    "view_all": "View all products"
+  },
+  "process": {
+    "title": "Our Quality Commitment",
+    "subtitle": "From Moroccan fields to your skin",
+    "step1_title": "Artisanal Selection",
+    "step1_desc": "Our ingredients are hand-picked from the purest Moroccan terroirs.",
+    "step2_title": "Traditional Craftsmanship",
+    "step2_desc": "Each product is made following ancestral Moroccan recipes passed down through generations.",
+    "step3_title": "Quality Control",
+    "step3_desc": "Rigorous testing to guarantee the purity and effectiveness of every product.",
+    "step4_title": "Careful Delivery",
+    "step4_desc": "Eco-friendly packaging and fast delivery throughout Belgium and France."
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "subtitle": "Reviews from our community"
+  },
+  "guarantees": {
+    "title": "Our Promises",
+    "natural": "100% Natural",
+    "natural_desc": "No chemicals, only natural ingredients",
+    "morocco": "Made in Morocco",
+    "morocco_desc": "Authentic craftsmanship from Moroccan terroirs",
+    "shipping": "Fast Delivery",
+    "shipping_desc": "Shipped within 48h, free from €79",
+    "satisfaction": "Satisfaction Guaranteed",
+    "satisfaction_desc": "Free returns within 14 days"
+  },
+  "story": {
+    "title": "The Essence of Natural Beauty",
+    "subtitle": "Since 2025",
+    "text": "Royaume du Bien-Être was born from a true passion: sharing the natural treasures of Morocco. Authenticity and the pursuit of natural beauty are the values we wish to convey through our shop.",
+    "cta": "Discover our story"
+  },
+  "moment": {
+    "title": "Your Moment of Well-Being",
+    "step1": "Pleasant textures, easy to apply",
+    "step2": "Natural fragrances that soothe the mind",
+    "step3": "Visible results on your skin"
+  },
+  "newsletter": {
+    "title": "The Circle of Rituals",
+    "subtitle": "Subscribe and get 10% off your first order",
+    "placeholder": "Your email address",
+    "cta": "Join",
+    "success": "Welcome to the Circle! Check your email for your promo code.",
+    "no_thanks": "No thanks, I prefer to pay full price.",
+    "no_spam": "No spam."
+  },
+  "cta_final": {
+    "title": "Ready to Reveal Your Glow?",
+    "subtitle": "Join the community and discover skincare designed for your natural well-being.",
+    "cta": "Discover the Gift Sets",
+    "reassurance": "Free delivery from €79 · Returns within 14 days"
+  },
+  "finder": {
+    "title": "Find Your Perfect Product",
+    "subtitle": "Answer 2 quick questions and discover our recommendations",
+    "q1": "What is your main concern?",
+    "q1_a1": "Skin hydration & glow",
+    "q1_a2": "Hair loss & hair care",
+    "q1_a3": "Purifying & cleansing",
+    "q2": "What is your budget?",
+    "q2_a1": "Under €15",
+    "q2_a2": "€15 – €30",
+    "q2_a3": "Over €30 (gift sets)",
+    "results": "Our recommendations for you",
+    "add": "Add to cart",
+    "restart": "Start over"
+  },
+  "pack": {
+    "title": "Build Your Pack",
+    "subtitle": "Compose your own set and save more",
+    "trio": "Trio",
+    "trio_desc": "3 products · 5% off",
+    "decouverte": "Discovery",
+    "decouverte_desc": "6 products · 10% off",
+    "famille": "Family",
+    "famille_desc": "9 products · 15% off",
+    "select_pack": "Choose your pack size",
+    "select_products": "Select your products",
+    "summary": "Your pack",
+    "empty_slot": "Empty slot",
+    "subtotal": "Subtotal",
+    "discount": "Pack discount",
+    "total": "Total",
+    "add_more": "Choose {n} more",
+    "add_to_cart": "Add pack to cart",
+    "added": "Added to cart!",
+    "choose_category": "Filter by category"
+  },
+  "footer": {
+    "tagline": "The essence of natural beauty and well-being for your fulfilment.",
+    "shop": "Shop",
+    "company": "The Company",
+    "legal": "Legal Notice",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "follow_us": "Follow Us",
+    "newsletter": "Newsletter",
+    "copyright": "© 2025 Royaume du Bien-Être. All rights reserved."
+  },
+  "cart_page": {
+    "title": "Your Cart",
+    "empty": "Your cart is empty",
+    "continue_shopping": "Continue shopping",
+    "subtotal": "Subtotal",
+    "shipping": "Delivery",
+    "free": "Free",
+    "shipping_info": "Free from €79",
+    "total": "Total",
+    "checkout": "Proceed to checkout",
+    "remove": "Remove",
+    "shipping_progress": "Only {amount} left for free delivery!"
+  },
+  "contact_page": {
+    "title": "Contact Us",
+    "subtitle": "A question? Don't hesitate to write to us.",
+    "name": "Your name",
+    "email": "Your email",
+    "phone": "Phone (optional)",
+    "subject": "Subject",
+    "message": "Your message",
+    "send": "Send message",
+    "success": "Message sent successfully! We'll reply within 24 hours.",
+    "reassurance": "Guaranteed reply within 24 hours"
+  },
+  "about": {
+    "title": "Our Story",
+    "subtitle": "The passion for natural beauty, Morocco's heritage"
+  },
+  "faq_page": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know"
+  },
+  "blog_page": {
+    "title": "The Well-Being Journal",
+    "subtitle": "Beauty tips, rituals and inspirations"
+  },
+  "common": {
+    "free_shipping": "Free delivery from €79",
+    "add_to_cart": "Add to cart",
+    "buy_now": "Buy now",
+    "view_details": "View details",
+    "back": "Back",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "in_stock": "In stock",
+    "out_of_stock": "Out of stock",
+    "low_stock": "Only {n} left!",
+    "added_to_cart": "Added to cart!",
+    "quick_response": "Response in < 30 min"
+  }
+}

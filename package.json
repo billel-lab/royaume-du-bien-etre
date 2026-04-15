@@ -1,0 +1,16 @@
+{
+  "name": "royaume-du-bien-etre",
+  "private": true,
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "dev:admin": "pnpm --filter admin dev",
+    "build:web": "pnpm --filter web build",
+    "build:admin": "pnpm --filter admin build",
+    "dev": "pnpm --filter web dev & pnpm --filter admin dev",
+    "build": "pnpm --filter web build && pnpm --filter admin build",
+    "lint": "pnpm --filter web lint && pnpm --filter admin lint"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}

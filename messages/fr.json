@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "title": "Royaume du Bien-Être — Cosmétiques Naturels Marocains",
+    "description": "Découvrez nos soins naturels artisanaux du Maroc. Huiles, crèmes, coffrets et soins capillaires 100% naturels. Livraison rapide en Belgique et en France."
+  },
+  "nav": {
+    "home": "Accueil",
+    "shop": "Boutique",
+    "about": "À Propos",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "cart": "Panier",
+    "account": "Mon Compte"
+  },
+  "hero": {
+    "badge": "Soins inspirés des rituels de beauté marocains",
+    "title": "Révélez Votre Éclat Naturel",
+    "subtitle": "Des trésors de beauté ancestraux, fabriqués artisanalement au Maroc avec des ingrédients purs et naturels.",
+    "cta_primary": "Découvrir la Collection",
+    "cta_secondary": "Nos Coffrets"
+  },
+  "categories": {
+    "title": "Nos Univers de Soins",
+    "subtitle": "Des rituels de beauté pour chaque besoin"
+  },
+  "featured": {
+    "title": "Nos Incontournables",
+    "subtitle": "Découvrez l'essence de notre savoir-faire à travers nos soins iconiques",
+    "add_to_cart": "Ajouter au panier",
+    "view_all": "Explorer la boutique"
+  },
+  "process": {
+    "title": "Notre Engagement Qualité",
+    "subtitle": "Du champ marocain à votre peau",
+    "step1_title": "Sélection Artisanale",
+    "step1_desc": "Nos ingrédients sont cueillis à la main dans les terroirs marocains les plus purs.",
+    "step2_title": "Fabrication Traditionnelle",
+    "step2_desc": "Chaque produit est fabriqué selon des recettes ancestrales marocaines transmises de génération en génération.",
+    "step3_title": "Contrôle Qualité",
+    "step3_desc": "Tests rigoureux pour garantir la pureté et l'efficacité de chaque produit.",
+    "step4_title": "Livraison Soignée",
+    "step4_desc": "Emballage écologique et livraison rapide partout en Belgique et en France."
+  },
+  "testimonials": {
+    "title": "Ils en Parlent",
+    "subtitle": "Les avis de nos client(e)s"
+  },
+  "guarantees": {
+    "title": "Nos Engagements",
+    "natural": "100% Naturel",
+    "natural_desc": "Aucun produit chimique, uniquement des ingrédients naturels",
+    "morocco": "Fabriqué au Maroc",
+    "morocco_desc": "Artisanat authentique des terroirs marocains",
+    "shipping": "Livraison Rapide",
+    "shipping_desc": "Expédition sous 48h, gratuite dès 79€",
+    "satisfaction": "Satisfaction Garantie",
+    "satisfaction_desc": "Retour gratuit sous 14 jours"
+  },
+  "story": {
+    "title": "L'Essence de la Beauté Naturelle",
+    "subtitle": "Depuis 2025",
+    "text": "Le Royaume du Bien-Être est né d'une véritable passion : celle de faire découvrir les trésors naturels du Maroc (mais pas que !). L'authenticité et la recherche du naturel sont deux valeurs que nous souhaitons transmettre à travers cette boutique.",
+    "cta": "Découvrir notre histoire"
+  },
+  "moment": {
+    "title": "Votre Moment de Bien-Être",
+    "step1": "Des textures agréables et faciles à appliquer",
+    "step2": "Des parfums naturels qui apaisent l'esprit",
+    "step3": "Des résultats visibles sur votre peau"
+  },
+  "finder": {
+    "title": "Trouvez Votre Produit Idéal",
+    "subtitle": "Répondez à 2 questions et découvrez nos recommandations",
+    "q1": "Quelle est votre préoccupation principale ?",
+    "q1_a1": "Hydratation & éclat du teint",
+    "q1_a2": "Chute de cheveux & soins capillaires",
+    "q1_a3": "Purification & nettoyage",
+    "q2": "Quel est votre budget ?",
+    "q2_a1": "Moins de 15€",
+    "q2_a2": "15€ – 30€",
+    "q2_a3": "Plus de 30€ (coffrets)",
+    "results": "Nos recommandations pour vous",
+    "add": "Ajouter au panier",
+    "restart": "Recommencer"
+  },
+  "pack": {
+    "title": "Composez Votre Pack",
+    "subtitle": "Créez votre propre coffret et économisez davantage",
+    "trio": "Trio",
+    "trio_desc": "3 produits · 5% de réduction",
+    "decouverte": "Découverte",
+    "decouverte_desc": "6 produits · 10% de réduction",
+    "famille": "Famille",
+    "famille_desc": "9 produits · 15% de réduction",
+    "select_pack": "Choisissez la taille de votre pack",
+    "select_products": "Sélectionnez vos produits",
+    "summary": "Votre pack",
+    "empty_slot": "Emplacement vide",
+    "subtotal": "Sous-total",
+    "discount": "Réduction pack",
+    "total": "Total",
+    "add_more": "Choisir {n} de plus",
+    "add_to_cart": "Ajouter le pack au panier",
+    "added": "Ajouté au panier !",
+    "choose_category": "Filtrer par catégorie"
+  },
+  "newsletter": {
+    "title": "Le Cercle des Rituels",
+    "subtitle": "Inscrivez-vous et bénéficiez de -10% sur votre commande",
+    "placeholder": "Votre adresse email",
+    "cta": "Obtenir mon code -10%",
+    "success": "Bienvenue dans le Cercle ! Vérifiez votre email pour votre code promo.",
+    "no_thanks": "Non merci, je préfère payer le prix fort.",
+    "no_spam": "Pas de spam."
+  },
+  "cta_final": {
+    "title": "Prête à Révéler Votre Éclat ?",
+    "subtitle": "Rejoignez la communauté et découvrez des soins pensés pour votre bien-être naturel.",
+    "cta": "Découvrir les Coffrets",
+    "reassurance": "Livraison gratuite dès 79€ · Retour sous 14 jours"
+  },
+  "footer": {
+    "tagline": "L'essence de la beauté naturelle et du bien-être pour votre épanouissement.",
+    "shop": "Boutique",
+    "company": "L'Entreprise",
+    "legal": "Mentions Légales",
+    "privacy": "Confidentialité",
+    "terms": "CGV",
+    "follow_us": "Suivez-nous",
+    "newsletter": "Newsletter",
+    "copyright": "© 2025 Royaume du Bien-Être. Tous droits réservés."
+  },
+  "cart_page": {
+    "title": "Votre Panier",
+    "empty": "Votre panier est vide",
+    "continue_shopping": "Continuer mes achats",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "free": "Gratuite",
+    "shipping_info": "Gratuite dès 79€",
+    "total": "Total",
+    "checkout": "Passer commande",
+    "remove": "Supprimer",
+    "shipping_progress": "Plus que {amount} pour la livraison gratuite !"
+  },
+  "contact_page": {
+    "title": "Contactez-nous",
+    "subtitle": "Une question ? N'hésitez pas à nous écrire.",
+    "name": "Votre nom",
+    "email": "Votre email",
+    "phone": "Téléphone (optionnel)",
+    "subject": "Sujet",
+    "message": "Votre message",
+    "send": "Envoyer le message",
+    "success": "Message envoyé avec succès ! Nous vous répondrons sous 24h.",
+    "reassurance": "Réponse garantie sous 24h"
+  },
+  "about": {
+    "title": "Notre Histoire",
+    "subtitle": "La passion du naturel, l'héritage du Maroc"
+  },
+  "faq_page": {
+    "title": "Questions Fréquentes",
+    "subtitle": "Tout ce que vous devez savoir"
+  },
+  "blog_page": {
+    "title": "Le Journal du Bien-Être",
+    "subtitle": "Conseils beauté, rituels et inspirations"
+  },
+  "common": {
+    "free_shipping": "Livraison gratuite dès 79€",
+    "add_to_cart": "Ajouter au panier",
+    "buy_now": "Acheter maintenant",
+    "view_details": "Voir le détail",
+    "back": "Retour",
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "in_stock": "En stock",
+    "out_of_stock": "Rupture de stock",
+    "low_stock": "Plus que {n} en stock !",
+    "added_to_cart": "Ajouté au panier !",
+    "quick_response": "Réponse en < 30 min"
+  }
+}

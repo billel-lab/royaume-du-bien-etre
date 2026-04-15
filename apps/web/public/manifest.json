@@ -1,0 +1,21 @@
+{
+  "name": "Royaume du Bien-Être",
+  "short_name": "RBE",
+  "description": "Cosmétiques Naturels Marocains",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#C4724B",
+  "background_color": "#FFF9F5",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

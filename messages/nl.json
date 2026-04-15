@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "title": "Royaume du Bien-Être — Natuurlijke Marokkaanse Cosmetica",
+    "description": "Ontdek onze ambachtelijke natuurlijke verzorging uit Marokko. Oliën, crèmes, geschenksets en haarverzorging 100% natuurlijk. Snelle levering in België en Frankrijk."
+  },
+  "nav": {
+    "home": "Home",
+    "shop": "Winkel",
+    "about": "Over Ons",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "cart": "Winkelwagen",
+    "account": "Mijn Account"
+  },
+  "hero": {
+    "badge": "Verzorging geïnspireerd door Marokkaanse schoonheidsrituelen",
+    "title": "Onthul Uw Natuurlijke Glans",
+    "subtitle": "Eeuwenoude schoonheidsschatten, ambachtelijk vervaardigd in Marokko met pure en natuurlijke ingrediënten.",
+    "cta_primary": "Ontdek de Collectie",
+    "cta_secondary": "Onze Geschenksets"
+  },
+  "categories": {
+    "title": "Onze Verzorgingswerelden",
+    "subtitle": "Schoonheidsrituelen voor elke behoefte"
+  },
+  "featured": {
+    "title": "Onze Bestsellers",
+    "subtitle": "Ontdek de essentie van onze expertise via onze iconische producten",
+    "add_to_cart": "In winkelwagen",
+    "view_all": "Bekijk de winkel"
+  },
+  "process": {
+    "title": "Ons Kwaliteitsengagement",
+    "subtitle": "Van Marokkaans veld tot uw huid",
+    "step1_title": "Ambachtelijke Selectie",
+    "step1_desc": "Onze ingrediënten worden met de hand geplukt in de zuiverste Marokkaanse gebieden.",
+    "step2_title": "Traditionele Fabricage",
+    "step2_desc": "Elk product wordt gemaakt volgens eeuwenoude Marokkaanse recepten, van generatie op generatie doorgegeven.",
+    "step3_title": "Kwaliteitscontrole",
+    "step3_desc": "Strenge tests om de zuiverheid en doeltreffendheid van elk product te garanderen.",
+    "step4_title": "Zorgvuldige Levering",
+    "step4_desc": "Ecologische verpakking en snelle levering in heel België en Frankrijk."
+  },
+  "testimonials": {
+    "title": "Wat Onze Klanten Zeggen",
+    "subtitle": "Beoordelingen van onze klanten"
+  },
+  "guarantees": {
+    "title": "Onze Beloften",
+    "natural": "100% Natuurlijk",
+    "natural_desc": "Geen chemische producten, alleen natuurlijke ingrediënten",
+    "morocco": "Gemaakt in Marokko",
+    "morocco_desc": "Authentiek ambacht uit Marokkaanse gebieden",
+    "shipping": "Snelle Levering",
+    "shipping_desc": "Verzending binnen 48u, gratis vanaf €79",
+    "satisfaction": "Tevredenheidsgarantie",
+    "satisfaction_desc": "Gratis retour binnen 14 dagen"
+  },
+  "story": {
+    "title": "De Essentie van Natuurlijke Schoonheid",
+    "subtitle": "Sinds 2025",
+    "text": "Royaume du Bien-Être is geboren uit een ware passie: de natuurlijke schatten van Marokko (en meer!) delen. Authenticiteit en het streven naar het natuurlijke zijn de waarden die wij via deze winkel willen overbrengen.",
+    "cta": "Ontdek ons verhaal"
+  },
+  "moment": {
+    "title": "Uw Moment van Welzijn",
+    "step1": "Aangename texturen, gemakkelijk aan te brengen",
+    "step2": "Natuurlijke geuren die de geest kalmeren",
+    "step3": "Zichtbare resultaten op uw huid"
+  },
+  "finder": {
+    "title": "Vind Uw Ideale Product",
+    "subtitle": "Beantwoord 2 vragen en ontdek onze aanbevelingen",
+    "q1": "Wat is uw belangrijkste zorg?",
+    "q1_a1": "Hydratatie & stralende huid",
+    "q1_a2": "Haarverlies & haarverzorging",
+    "q1_a3": "Zuivering & reiniging",
+    "q2": "Wat is uw budget?",
+    "q2_a1": "Minder dan €15",
+    "q2_a2": "€15 – €30",
+    "q2_a3": "Meer dan €30 (geschenksets)",
+    "results": "Onze aanbevelingen voor u",
+    "add": "In winkelwagen",
+    "restart": "Opnieuw beginnen"
+  },
+  "pack": {
+    "title": "Stel Uw Pack Samen",
+    "subtitle": "Maak uw eigen set en bespaar meer",
+    "trio": "Trio",
+    "trio_desc": "3 producten · 5% korting",
+    "decouverte": "Ontdekking",
+    "decouverte_desc": "6 producten · 10% korting",
+    "famille": "Familie",
+    "famille_desc": "9 producten · 15% korting",
+    "select_pack": "Kies uw packgrootte",
+    "select_products": "Selecteer uw producten",
+    "summary": "Uw pack",
+    "empty_slot": "Lege plek",
+    "subtotal": "Subtotaal",
+    "discount": "Packkorting",
+    "total": "Totaal",
+    "add_more": "Kies nog {n}",
+    "add_to_cart": "Pack toevoegen aan winkelwagen",
+    "added": "Toegevoegd aan winkelwagen!",
+    "choose_category": "Filter op categorie"
+  },
+  "newsletter": {
+    "title": "De Rituelen Cirkel",
+    "subtitle": "Schrijf u in en ontvang -10% op uw bestelling",
+    "placeholder": "Uw e-mailadres",
+    "cta": "Mijn -10% code ontvangen",
+    "success": "Welkom in de Cirkel! Controleer uw e-mail voor uw promotiecode.",
+    "no_thanks": "Nee bedankt, ik betaal liever de volle prijs.",
+    "no_spam": "Geen spam."
+  },
+  "cta_final": {
+    "title": "Klaar om Uw Glans te Onthullen?",
+    "subtitle": "Word lid van de community en ontdek verzorging ontworpen voor uw natuurlijk welzijn.",
+    "cta": "Ontdek de Geschenksets",
+    "reassurance": "Gratis verzending vanaf €79 · Retour binnen 14 dagen"
+  },
+  "footer": {
+    "tagline": "De essentie van natuurlijke schoonheid en welzijn voor uw ontplooiing.",
+    "shop": "Winkel",
+    "company": "Het Bedrijf",
+    "legal": "Juridische Vermeldingen",
+    "privacy": "Privacy",
+    "terms": "Algemene Voorwaarden",
+    "follow_us": "Volg Ons",
+    "newsletter": "Nieuwsbrief",
+    "copyright": "© 2025 Royaume du Bien-Être. Alle rechten voorbehouden."
+  },
+  "cart_page": {
+    "title": "Uw Winkelwagen",
+    "empty": "Uw winkelwagen is leeg",
+    "continue_shopping": "Verder winkelen",
+    "subtotal": "Subtotaal",
+    "shipping": "Verzending",
+    "free": "Gratis",
+    "shipping_info": "Gratis vanaf €79",
+    "total": "Totaal",
+    "checkout": "Afrekenen",
+    "remove": "Verwijderen",
+    "shipping_progress": "Nog {amount} voor gratis verzending!"
+  },
+  "contact_page": {
+    "title": "Contacteer Ons",
+    "subtitle": "Een vraag? Aarzel niet om ons te schrijven.",
+    "name": "Uw naam",
+    "email": "Uw e-mail",
+    "phone": "Telefoon (optioneel)",
+    "subject": "Onderwerp",
+    "message": "Uw bericht",
+    "send": "Bericht verzenden",
+    "success": "Bericht succesvol verzonden! We antwoorden binnen 24u.",
+    "reassurance": "Gegarandeerd antwoord binnen 24u"
+  },
+  "about": {
+    "title": "Ons Verhaal",
+    "subtitle": "De passie voor het natuurlijke, het erfgoed van Marokko"
+  },
+  "faq_page": {
+    "title": "Veelgestelde Vragen",
+    "subtitle": "Alles wat u moet weten"
+  },
+  "blog_page": {
+    "title": "Het Welzijnsmagazine",
+    "subtitle": "Schoonheidstips, rituelen en inspiratie"
+  },
+  "common": {
+    "free_shipping": "Gratis verzending vanaf €79",
+    "add_to_cart": "In winkelwagen",
+    "buy_now": "Nu kopen",
+    "view_details": "Details bekijken",
+    "back": "Terug",
+    "loading": "Laden...",
+    "error": "Er is een fout opgetreden",
+    "in_stock": "Op voorraad",
+    "out_of_stock": "Uitverkocht",
+    "low_stock": "Nog maar {n} op voorraad!",
+    "added_to_cart": "Toegevoegd aan winkelwagen!",
+    "quick_response": "Antwoord in < 30 min"
+  }
+}

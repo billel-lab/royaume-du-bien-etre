@@ -1,71 +1,52 @@
 @import "tailwindcss";
 
 @theme {
-  /* Terracotta & Crème — Épuré Oriental */
-  --color-primary: #C4724B;
-  --color-primary-light: #D4896A;
-  --color-primary-dark: #A85D3A;
-  --color-secondary: #2C1810;
-  --color-secondary-light: #4A2E22;
-  --color-accent: #F5E1D0;
-  --color-accent-light: #FFF3EA;
-  --color-accent-dark: #E8CDB8;
+  /* Or Champagne — aligné logo officiel */
+  --color-primary: #B8944F;
+  --color-primary-light: #D4BC8A;
+  --color-primary-dark: #9A7A3D;
+  --color-secondary: #1A1A1A;
+  --color-secondary-light: #2D2D2D;
+  --color-accent: #F5F1EA;
+  --color-accent-light: #FAF8F4;
+  --color-accent-dark: #E8E2D8;
 
-  /* Backgrounds — warm and unified */
-  --color-bg: #FFF9F5;
-  --color-bg-alt: #FEF0E6;
-  --color-bg-dark: #1A0E08;
-  --color-bg-dark-card: #231510;
+  /* Backgrounds */
+  --color-bg: #FAFAF8;
+  --color-bg-alt: #F5F1EA;
+  --color-bg-dark: #1A1A1A;
+  --color-bg-dark-card: #2D2D2D;
 
-  /* Text — softer browns */
-  --color-text: #2C1810;
-  --color-text-body: #6B5B50;
-  --color-text-muted: #9B8C82;
-  --color-text-light: #FFF9F5;
+  /* Text */
+  --color-text: #1A1A1A;
+  --color-text-body: #6B6156;
+  --color-text-muted: #A09688;
+  --color-text-light: #FAFAF8;
 
   /* Semantic */
-  --color-success: #6B8F5E;
+  --color-success: #4A7C59;
   --color-warning: #D4A843;
-  --color-error: #C45B4B;
+  --color-error: #C25450;
   --color-info: #5B8FC4;
 
-  /* Gold — subtle detail accent only */
-  --color-gold: #C8963E;
-  --color-gold-light: #E8C87A;
-  --color-gold-dark: #A67A2E;
+  /* Border */
+  --color-border: #E8E2D8;
 }
 
-/* === ELEGANT UTILITIES === */
+/* === SHARP LUXE UTILITIES === */
 
-/* Gold detail color (not gradient) */
-.text-gold-accent {
-  color: #C8963E;
-}
-
-/* Decorative gold line */
+/* Gold line */
 .gold-line {
   height: 1px;
-  background: linear-gradient(90deg, transparent, #C8963E40, transparent);
+  background: linear-gradient(90deg, transparent, #B8944F40, transparent);
 }
 
-.gold-line-thick {
-  height: 1px;
-  background: linear-gradient(90deg, transparent, #C8963E60, #E8C87A60, #C8963E60, transparent);
+/* Border hover gold */
+.border-hover-gold {
+  transition: border-color 0.35s ease;
 }
-
-/* Subtle gold glow on hover */
-.shadow-gold-glow {
-  box-shadow: 0 4px 20px rgba(200, 150, 62, 0.08), 0 0 40px rgba(200, 150, 62, 0.03);
-}
-
-/* Gold border hover */
-.border-gold-hover {
-  border-color: rgba(200, 150, 62, 0.1);
-  transition: border-color 0.3s, box-shadow 0.3s;
-}
-.border-gold-hover:hover {
-  border-color: rgba(200, 150, 62, 0.25);
-  box-shadow: 0 0 15px rgba(200, 150, 62, 0.06);
+.border-hover-gold:hover {
+  border-color: #B8944F60;
 }
 
 /* Scrollbar hide */

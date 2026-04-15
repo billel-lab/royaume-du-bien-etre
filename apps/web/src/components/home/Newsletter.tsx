@@ -41,7 +41,7 @@ export default function Newsletter() {
             <motion.div
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
-              className="inline-flex items-center gap-2 bg-success/10 text-success px-6 py-3 rounded-lg"
+              className="inline-flex items-center gap-2 bg-success/10 text-success px-6 py-3 rounded-none"
             >
               <Check className="w-5 h-5" />
               <span className="font-medium text-sm">{t('success')}</span>
@@ -55,13 +55,13 @@ export default function Newsletter() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder={t('placeholder')}
-                  className="w-full bg-white border border-accent-dark/15 rounded-lg pl-11 pr-4 py-3.5 text-sm focus:outline-none focus:border-primary/40 focus:ring-2 focus:ring-primary/5 transition-all"
+                  className="w-full bg-white border border-border pl-11 pr-4 py-3.5 text-sm focus:outline-none focus:border-primary transition-all"
                   required
                 />
               </div>
               <motion.button
                 type="submit"
-                className="bg-primary hover:bg-primary-dark text-white px-8 py-3.5 rounded-lg font-medium text-sm transition-colors shadow-sm"
+                className="bg-secondary hover:bg-primary text-white px-8 py-3.5 text-xs uppercase tracking-[0.15em] font-medium transition-colors duration-300"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
               >

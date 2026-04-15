@@ -10,33 +10,31 @@ import { ArrowRight } from 'lucide-react'
 
 export default function Categories() {
   const t = useTranslations('categories')
-
-  // Top 6 categories, 3 columns
   const displayCats = catData.slice(0, 6)
 
   return (
-    <section className="py-24 lg:py-32 bg-bg-alt">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-24 lg:py-32 bg-accent">
+      <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-16">
         <BlurFade>
           <div className="text-center mb-16">
-            <h2 className="font-[family-name:var(--font-heading)] text-3xl sm:text-4xl font-medium text-secondary mb-4">
+            <h2 className="font-[family-name:var(--font-heading)] text-3xl sm:text-4xl font-light text-secondary mb-4">
               {t('title')}
             </h2>
-            <p className="text-text-muted max-w-2xl mx-auto font-light">{t('subtitle')}</p>
+            <p className="text-text-muted max-w-2xl mx-auto font-light text-sm">{t('subtitle')}</p>
           </div>
         </BlurFade>
 
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-8">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6">
           {displayCats.map((cat, i) => (
             <BlurFade key={cat.slug} delay={i * 0.08}>
               <Link href={`/boutique?cat=${cat.slug}`}>
                 <motion.div
-                  className="group relative bg-white rounded-2xl overflow-hidden border border-accent-dark/8 border-gold-hover cursor-pointer"
-                  whileHover={{ y: -4 }}
-                  transition={{ type: 'spring', stiffness: 300 }}
+                  className="group bg-bg border border-border border-hover-gold cursor-pointer"
+                  whileHover={{ y: -3 }}
+                  transition={{ duration: 0.3 }}
                 >
                   {/* Image */}
-                  <div className="relative aspect-[4/3] bg-accent-light/50">
+                  <div className="relative aspect-[4/3] bg-accent-light/30">
                     <Image
                       src={cat.image}
                       alt={cat.name}
@@ -47,16 +45,14 @@ export default function Categories() {
                   </div>
 
                   {/* Info */}
-                  <div className="p-5 flex items-center justify-between">
+                  <div className="p-5 border-t border-border flex items-center justify-between">
                     <div>
-                      <h3 className="font-[family-name:var(--font-heading)] text-lg font-medium text-secondary group-hover:text-primary transition-colors">
+                      <h3 className="text-sm font-medium text-secondary group-hover:text-primary transition-colors uppercase tracking-[0.08em]">
                         {cat.name}
                       </h3>
-                      <p className="text-xs text-text-muted font-light">{cat.count} produits</p>
+                      <p className="text-[11px] text-text-muted font-light mt-0.5">{cat.count} produits</p>
                     </div>
-                    <div className="w-8 h-8 rounded-full bg-accent flex items-center justify-center group-hover:bg-primary/10 transition-colors">
-                      <ArrowRight className="w-4 h-4 text-text-muted group-hover:text-primary transition-colors" />
-                    </div>
+                    <ArrowRight className="w-4 h-4 text-text-muted group-hover:text-primary group-hover:translate-x-1 transition-all" />
                   </div>
                 </motion.div>
               </Link>

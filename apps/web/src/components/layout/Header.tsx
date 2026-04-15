@@ -34,39 +34,39 @@ export default function Header() {
   return (
     <>
       {/* Free shipping banner */}
-      <div className="bg-primary text-white text-center text-xs sm:text-sm py-2 font-medium tracking-wide">
-        ✨ Livraison gratuite dès 79€ d&apos;achat ✨
+      <div className="bg-secondary text-white text-center text-[11px] py-2.5 uppercase tracking-[0.2em] font-medium">
+        Livraison gratuite dès 79€ d&apos;achat
       </div>
 
       <header
         className={cn(
           'sticky top-0 z-50 transition-all duration-300',
           scrolled
-            ? 'bg-bg/95 backdrop-blur-xl shadow-sm shadow-primary/5'
+            ? 'bg-bg/95 backdrop-blur-xl border-b border-border'
             : 'bg-bg/80 backdrop-blur-md'
         )}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-16">
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-2 group">
+            <Link href="/" className="flex items-center">
               <Image
                 src={LOGO_URL}
                 alt="Royaume du Bien-Être"
-                width={160}
-                height={50}
-                className="h-10 lg:h-12 w-auto object-contain"
+                width={140}
+                height={45}
+                className="h-10 lg:h-11 w-auto object-contain"
                 priority
               />
             </Link>
 
-            {/* Desktop Nav */}
+            {/* Desktop Nav — uppercase, tracked */}
             <nav className="hidden lg:flex items-center gap-8">
               {navLinks.map((link) => (
                 <Link
                   key={link.key}
                   href={link.href}
-                  className="text-sm font-medium text-text-body hover:text-primary transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-all hover:after:w-full"
+                  className="text-[13px] uppercase tracking-[0.1em] font-medium text-text-body hover:text-primary transition-colors duration-300"
                 >
                   {t(link.key)}
                 </Link>
@@ -74,9 +74,9 @@ export default function Header() {
             </nav>
 
             {/* Actions */}
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-4">
               <button
-                className="p-2 hover:bg-accent/50 rounded-full transition-colors"
+                className="p-2 hover:text-primary transition-colors"
                 aria-label="Rechercher"
               >
                 <Search className="w-5 h-5 text-text-body" />
@@ -84,14 +84,14 @@ export default function Header() {
 
               <Link
                 href="/panier"
-                className="relative p-2 hover:bg-accent/50 rounded-full transition-colors"
+                className="relative p-2 hover:text-primary transition-colors"
               >
                 <ShoppingBag className="w-5 h-5 text-text-body" />
                 {itemCount > 0 && (
                   <motion.span
                     initial={{ scale: 0 }}
                     animate={{ scale: 1 }}
-                    className="absolute -top-0.5 -right-0.5 bg-primary text-white text-[10px] font-bold w-5 h-5 rounded-full flex items-center justify-center"
+                    className="absolute -top-0.5 -right-0.5 bg-primary text-white text-[9px] font-bold w-4 h-4 flex items-center justify-center"
                   >
                     {itemCount}
                   </motion.span>
@@ -100,15 +100,11 @@ export default function Header() {
 
               {/* Mobile menu button */}
               <button
-                className="lg:hidden p-2 hover:bg-accent/50 rounded-full transition-colors"
+                className="lg:hidden p-2 hover:text-primary transition-colors"
                 onClick={() => setMobileOpen(!mobileOpen)}
                 aria-label="Menu"
               >
-                {mobileOpen ? (
-                  <X className="w-5 h-5" />
-                ) : (
-                  <Menu className="w-5 h-5" />
-                )}
+                {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
               </button>
             </div>
           </div>
@@ -121,15 +117,15 @@ export default function Header() {
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: 'auto' }}
               exit={{ opacity: 0, height: 0 }}
-              className="lg:hidden bg-bg border-t border-accent overflow-hidden"
+              className="lg:hidden bg-bg border-t border-border overflow-hidden"
             >
-              <nav className="max-w-7xl mx-auto px-4 py-4 flex flex-col gap-1">
+              <nav className="max-w-7xl mx-auto px-6 py-4 flex flex-col">
                 {navLinks.map((link) => (
                   <Link
                     key={link.key}
                     href={link.href}
                     onClick={() => setMobileOpen(false)}
-                    className="py-3 px-4 text-sm font-medium text-text-body hover:text-primary hover:bg-accent/30 rounded-lg transition-colors"
+                    className="py-3 px-2 text-[13px] uppercase tracking-[0.1em] font-medium text-text-body hover:text-primary border-b border-border/50 last:border-0 transition-colors"
                   >
                     {t(link.key)}
                   </Link>

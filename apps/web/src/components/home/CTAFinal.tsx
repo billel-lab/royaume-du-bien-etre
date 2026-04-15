@@ -25,7 +25,7 @@ export default function CTAFinal() {
               </p>
               <Link href="/boutique?cat=coffrets">
                 <motion.button
-                  className="group inline-flex items-center gap-2 bg-primary hover:bg-primary-dark text-white px-10 py-4 rounded-lg font-medium text-sm transition-colors shadow-md shadow-primary/15"
+                  className="group inline-flex items-center gap-3 bg-secondary hover:bg-primary text-white px-10 py-4 text-xs uppercase tracking-[0.15em] font-medium transition-colors duration-300"
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                 >
@@ -38,7 +38,7 @@ export default function CTAFinal() {
 
             {/* Image coffret */}
             <motion.div
-              className="relative aspect-square max-w-sm mx-auto lg:max-w-none rounded-2xl overflow-hidden border border-accent-dark/10"
+              className="relative aspect-square max-w-sm mx-auto lg:max-w-none overflow-hidden border border-border"
               whileHover={{ scale: 1.02 }}
               transition={{ type: 'spring', stiffness: 200 }}
             >

@@ -63,7 +63,7 @@ function TestimonialCard({
   product,
 }: (typeof testimonials)[0]) {
   return (
-    <div className="flex-shrink-0 w-80 bg-white rounded-2xl p-6 border border-accent-dark/10 border-gold-hover">
+    <div className="flex-shrink-0 w-80 bg-white p-6 border border-border border-hover-gold">
       <Quote className="w-5 h-5 text-primary/20 mb-3" />
       <p className="text-sm text-text-body leading-relaxed mb-4 line-clamp-4 font-light italic">
         &ldquo;{text}&rdquo;
@@ -81,7 +81,7 @@ function TestimonialCard({
           <p className="text-sm font-medium text-secondary">{name}</p>
           <p className="text-xs text-text-muted font-light">{location}</p>
         </div>
-        <span className="text-[10px] text-primary bg-accent px-2.5 py-1 rounded-full font-medium">
+        <span className="text-[10px] text-primary bg-accent px-2.5 py-1 font-medium uppercase tracking-wide">
           {product}
         </span>
       </div>

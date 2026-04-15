@@ -3,6 +3,7 @@ import Footer from '@/components/layout/Footer'
 import BottomNav from '@/components/layout/BottomNav'
 import WhatsAppButton from '@/components/layout/WhatsAppButton'
 import ScrollProgress from '@/components/layout/ScrollProgress'
+import ScrollToTop from '@/components/layout/ScrollToTop'
 import StickyCTAMobile from '@/components/layout/StickyCTAMobile'
 import NewsletterPopup from '@/components/layout/NewsletterPopup'
 import Hero from '@/components/home/Hero'
@@ -10,7 +11,6 @@ import Categories from '@/components/home/Categories'
 import FeaturedProducts from '@/components/home/FeaturedProducts'
 import BrandStory from '@/components/home/BrandStory'
 import Process from '@/components/home/Process'
-import WellBeingMoment from '@/components/home/WellBeingMoment'
 import ProductFinder from '@/components/home/ProductFinder'
 import Stats from '@/components/home/Stats'
 import Testimonials from '@/components/home/Testimonials'
@@ -27,23 +27,21 @@ export default function HomePage() {
       <main>
         <Hero />
         <Categories />
-        <ArabesqueDivider variant="ornate" className="bg-bg-alt" />
         <FeaturedProducts />
         <BrandStory />
-        <ArabesqueDivider variant="arch" />
+        <ArabesqueDivider variant="simple" className="bg-bg" />
         <Process />
-        <WellBeingMoment />
         <ProductFinder />
         <Stats />
         <Testimonials />
         <Guarantees />
-        <ArabesqueDivider variant="simple" className="bg-bg-alt" />
         <Newsletter />
         <CTAFinal />
       </main>
       <Footer />
       <BottomNav />
       <WhatsAppButton />
+      <ScrollToTop />
       <StickyCTAMobile />
       <NewsletterPopup />
     </>

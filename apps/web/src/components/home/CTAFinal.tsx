@@ -1,57 +1,56 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 import Link from 'next/link'
 import { useTranslations } from 'next-intl'
 import { ArrowRight } from 'lucide-react'
 import BlurFade from '@/components/ui/BlurFade'
-import ZelligeBackground from '@/components/ui/ZelligeBackground'
-import GoldShimmerButton from '@/components/ui/GoldShimmerButton'
-import ArabesqueDivider from '@/components/ui/ArabesqueDivider'
 
 export default function CTAFinal() {
   const t = useTranslations('cta_final')
 
   return (
-    <section className="py-20 lg:py-28 bg-secondary relative overflow-hidden">
-      <ZelligeBackground variant="gold" opacity={0.05} />
-
-      {/* Large decorative gold orbs */}
-      <motion.div
-        className="absolute -top-20 -right-20 w-80 h-80 bg-gold/5 rounded-full blur-3xl"
-        animate={{ scale: [1, 1.3, 1] }}
-        transition={{ duration: 8, repeat: Infinity }}
-      />
-      <motion.div
-        className="absolute -bottom-20 -left-20 w-64 h-64 bg-primary/5 rounded-full blur-3xl"
-        animate={{ scale: [1.2, 1, 1.2] }}
-        transition={{ duration: 10, repeat: Infinity }}
-      />
-
-      <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <section className="py-24 lg:py-32 bg-accent">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <BlurFade>
-          {/* Gold arabesque ornament */}
-          <ArabesqueDivider variant="arch" color="#E8C87A" className="mb-8" />
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Text */}
+            <div className="text-center lg:text-left">
+              <h2 className="font-[family-name:var(--font-heading)] text-3xl sm:text-4xl lg:text-5xl font-medium text-secondary mb-4 leading-tight">
+                {t('title')}
+              </h2>
+              <p className="text-text-body max-w-lg mx-auto lg:mx-0 mb-8 font-light leading-relaxed">
+                {t('subtitle')}
+              </p>
+              <Link href="/boutique?cat=coffrets">
+                <motion.button
+                  className="group inline-flex items-center gap-2 bg-primary hover:bg-primary-dark text-white px-10 py-4 rounded-lg font-medium text-sm transition-colors shadow-md shadow-primary/15"
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                >
+                  {t('cta')}
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </motion.button>
+              </Link>
+              <p className="text-xs text-text-muted mt-4 font-light">{t('reassurance')}</p>
+            </div>
 
-          <h2 className="font-[family-name:var(--font-heading)] text-3xl sm:text-4xl lg:text-5xl font-semibold text-white mb-4 leading-tight">
-            <span className="text-gradient-gold">{t('title')}</span>
-          </h2>
-
-          <p className="text-accent/70 max-w-2xl mx-auto mb-10 text-base sm:text-lg font-light leading-relaxed">
-            {t('subtitle')}
-          </p>
-
-          <Link href="/boutique?cat=coffrets">
-            <GoldShimmerButton>
-              {t('cta')}
-              <ArrowRight className="w-4 h-4" />
-            </GoldShimmerButton>
-          </Link>
-
-          <p className="text-xs text-accent/40 mt-6 font-light tracking-wide">{t('reassurance')}</p>
-
-          {/* Gold arabesque bottom */}
-          <ArabesqueDivider variant="ornate" color="#E8C87A" className="mt-10" />
+            {/* Image coffret */}
+            <motion.div
+              className="relative aspect-square max-w-sm mx-auto lg:max-w-none rounded-2xl overflow-hidden border border-accent-dark/10"
+              whileHover={{ scale: 1.02 }}
+              transition={{ type: 'spring', stiffness: 200 }}
+            >
+              <Image
+                src="https://royaumedubienetre.fr/wp-content/uploads/2025/05/ab37215f-42a9-4a6a-b85b-8aa67a1aaf7f-300x300.png"
+                alt="Coffret Beauté Précieuse — Royaume du Bien-Être"
+                fill
+                className="object-contain p-8"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+            </motion.div>
+          </div>
         </BlurFade>
       </div>
     </section>

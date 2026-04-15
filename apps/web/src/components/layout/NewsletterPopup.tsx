@@ -2,7 +2,9 @@
 
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import Image from 'next/image'
 import { X, Mail, Gift, Lock, Check, ArrowRight } from 'lucide-react'
+import { LOGO_URL } from '@/lib/products'
 
 const STORAGE_KEY = 'rbe-newsletter-dismissed'
 
@@ -108,15 +110,15 @@ export default function NewsletterPopup() {
             ) : (
               /* Form state */
               <>
-                {/* Animated icon */}
-                <div className="text-center mb-4">
-                  <motion.div
-                    animate={{ rotate: [-10, 10, -10] }}
-                    transition={{ duration: 2, repeat: Infinity }}
-                    className="text-5xl inline-block"
-                  >
-                    ✨
-                  </motion.div>
+                {/* Logo */}
+                <div className="flex justify-center mb-5">
+                  <Image
+                    src={LOGO_URL}
+                    alt="Royaume du Bien-Être"
+                    width={160}
+                    height={50}
+                    className="h-12 w-auto object-contain"
+                  />
                 </div>
 
                 {/* Badge */}

@@ -11,7 +11,7 @@
     "lint": "pnpm --filter web lint && pnpm --filter admin lint"
   },
   "devDependencies": {
-    "next": "15.1.0"
+    "next": "15.1.11"
   },
   "engines": {
     "node": ">=18.17.0"

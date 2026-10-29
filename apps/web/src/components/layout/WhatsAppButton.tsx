@@ -14,7 +14,7 @@ function WhatsAppIcon({ className = 'w-6 h-6' }: { className?: string }) {
 
 export default function WhatsAppButton() {
   const [showTooltip, setShowTooltip] = useState(false)
-  const phone = '32485538428'
+  const phone = '32XXXXXXXXX'
   const message = encodeURIComponent(
     'Bonjour ! Je suis intéressé(e) par vos produits naturels. Pouvez-vous me conseiller ?'
   )

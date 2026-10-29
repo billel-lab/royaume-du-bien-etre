@@ -33,7 +33,7 @@ export default function CGVPage() {
             <p>Conformément à la législation, vous disposez d&apos;un délai de 14 jours à compter de la réception pour retourner un produit non ouvert et dans son emballage d&apos;origine.</p>
 
             <h2>7. Contact</h2>
-            <p>Pour toute question : contact@royaumedubienetre.fr ou WhatsApp +32 485 53 84 28.</p>
+            <p>Pour toute question : contact@royaumedubienetre.fr ou WhatsApp +32 XXX XX XX XX.</p>
           </div>
         </div>
       </main>

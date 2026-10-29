@@ -41,7 +41,7 @@ export default function UpsellActionLock({ featureName, children }: UpsellAction
 
             <div className="space-y-3">
               <a
-                href={`https://wa.me/32485538428?text=${encodeURIComponent(`Bonjour ! Je souhaite activer "${featureName}" sur mon admin Royaume du Bien-Être.`)}`}
+                href={`https://wa.me/32XXXXXXXXX?text=${encodeURIComponent(`Bonjour ! Je souhaite activer "${featureName}" sur mon admin Royaume du Bien-Être.`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 w-full bg-[#25D366] hover:bg-[#20BD5A] text-white py-3 rounded-xl font-semibold text-sm transition-colors"

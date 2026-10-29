@@ -83,7 +83,7 @@ export default function UpsellGate({ featureName, emoji, features }: UpsellGateP
 
         {/* CTA */}
         <a
-          href={`https://wa.me/32485538428?text=${encodeURIComponent(`Bonjour ! Je souhaite activer "${featureName}" sur mon admin Royaume du Bien-Être.`)}`}
+          href={`https://wa.me/32XXXXXXXXX?text=${encodeURIComponent(`Bonjour ! Je souhaite activer "${featureName}" sur mon admin Royaume du Bien-Être.`)}`}
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-2 w-full bg-primary hover:bg-primary-dark text-white py-3.5 rounded-xl font-semibold text-sm transition-colors"

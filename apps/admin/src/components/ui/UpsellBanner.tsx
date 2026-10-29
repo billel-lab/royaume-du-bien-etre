@@ -23,7 +23,7 @@ export default function UpsellBanner({ featureLabel }: UpsellBannerProps) {
         </div>
       </div>
       <a
-        href="https://wa.me/32485538428?text=Bonjour%20!%20Je%20souhaite%20activer%20la%20fonctionnalité%20%22{featureLabel}%22%20de%20mon%20admin%20Royaume%20du%20Bien-Être."
+        href="https://wa.me/32XXXXXXXXX?text=Bonjour%20!%20Je%20souhaite%20activer%20la%20fonctionnalité%20%22{featureLabel}%22%20de%20mon%20admin%20Royaume%20du%20Bien-Être."
         target="_blank"
         rel="noopener noreferrer"
         className="flex-shrink-0 flex items-center gap-2 bg-primary hover:bg-primary-dark text-white px-4 py-2 rounded-lg text-xs font-semibold transition-colors"

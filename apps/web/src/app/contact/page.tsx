@@ -74,7 +74,7 @@ export default function ContactPage() {
                   <p className="text-sm text-text-muted">Belgique & France</p>
                 </div>
                 <a
-                  href="https://wa.me/32485538428"
+                  href="https://wa.me/32XXXXXXXXX"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 bg-[#25D366]/10 text-[#25D366] rounded-2xl p-6 hover:bg-[#25D366]/20 transition-colors"

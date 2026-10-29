@@ -61,7 +61,7 @@ export default function ContactPage() {
                 <div className="bg-white rounded-2xl p-6 shadow-sm">
                   <Phone className="w-6 h-6 text-primary mb-3" />
                   <h3 className="font-semibold text-secondary mb-1">Téléphone</h3>
-                  <p className="text-sm text-text-muted">+32 478 11 59 81</p>
+                  <p className="text-sm text-text-muted">+32 XXX XX XX XX</p>
                 </div>
                 <div className="bg-white rounded-2xl p-6 shadow-sm">
                   <Mail className="w-6 h-6 text-primary mb-3" />
@@ -74,7 +74,7 @@ export default function ContactPage() {
                   <p className="text-sm text-text-muted">Belgique & France</p>
                 </div>
                 <a
-                  href="https://wa.me/32478115981"
+                  href="https://wa.me/32485538428"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 bg-[#25D366]/10 text-[#25D366] rounded-2xl p-6 hover:bg-[#25D366]/20 transition-colors"

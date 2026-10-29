@@ -5,7 +5,7 @@
 - **Métier :** E-commerce de produits cosmétiques naturels marocains (soins visage, corps, capillaires, coffrets)
 - **Site existant :** https://royaumedubienetre.fr/
 - **Positionnement :** Premium, naturel, artisanal marocain — style oriental
-- **Contact WhatsApp :** +32 478 11 59 81
+- **Contact WhatsApp :** +32 485 53 84 28
 - **Instagram :** @boutiqueroyaumedubienetre
 
 ## Branding

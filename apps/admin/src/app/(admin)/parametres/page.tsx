@@ -32,7 +32,7 @@ export default function ParametresPage() {
             </div>
             <div>
               <label className="block text-xs font-medium text-text-secondary mb-1.5">Téléphone</label>
-              <input type="tel" defaultValue="+32 478 11 59 81" className="w-full bg-bg-input border border-border rounded-lg px-4 py-2.5 text-sm text-text" disabled />
+              <input type="tel" defaultValue="+32 XXX XX XX XX" className="w-full bg-bg-input border border-border rounded-lg px-4 py-2.5 text-sm text-text" disabled />
             </div>
             <div>
               <label className="block text-xs font-medium text-text-secondary mb-1.5">Instagram</label>
